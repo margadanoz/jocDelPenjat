@@ -1,0 +1,10 @@
+1er Dia de programació del joc:
+
+- Creació de la interfaç de HTML en funció de les especificacion del projecte.
+- Creació del CSS (ja amb les classes que empraré de incorrecta i correcta).
+- Part programació:
+	- Agafar documents del DOM.
+	- Creació de array de prova i de les variables necessaris fins aquest punt
+	per generar els guions al HTML, contar tirades, etc.
+	- Em quedo a la part de sustituir els guions per les lletres que es vagin encertant.
+	- Falta punt de generar contador (més endavant quan estigui la lògica dels guions).

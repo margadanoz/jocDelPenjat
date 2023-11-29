@@ -1,0 +1,169 @@
+/* Cambiamos fuente del juego */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P';
+}
+
+body{
+    background-color: #d5c7bc;
+}
+
+/* LOGO JUEGO Y TITULO*/
+.titol img{
+    width: 20vh;
+}
+
+#titolJoc{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.titol{
+    display: flex;
+}
+
+.titol h1{
+    align-self: center;
+    margin-left: 10px;
+}
+
+
+/* CONTAINER PRINCIPAL CON PANEL Y RESTO DE COSAS*/
+
+.flex-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+
+#titolJoc2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titol{
+    margin-bottom: 50px;
+    color: #721121;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #721121;
+    border: 2px solid #ff5900;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+/* Faltará animacion para cuando cargue página en esto: */
+#subtitol{
+    color: #721121;
+}
+#intents{
+    color: #721121;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#nombreIntents{
+    color: #ff5900;
+}
+.panelLetras{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    width: 800px;
+    padding: 20px;
+}
+
+.letra{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid #721121;
+    border-radius: 5px;
+}
+
+.letra:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: white;
+    background-color: #82a5f2;
+}
+
+/* Per aals guions: */
+.guionesPalabra{
+    color: #721121;
+    margin-top: 30px;
+}
+
+/* Parte de mostrar errores y cronómetro */
+#mostraErrors{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cronometro{
+    margin-top: 30px;
+}
+
+#mostraErrors h4{
+    color: #721121;
+}
+#nombreErrors{
+    color: #ff5900;
+}
+
+/* Clases especifiques per quan es cometen errors
+o s'encerten lletres, per modificar estil a Javascript */
+.incorrecta{
+    background-color: tomato;
+    border: 2px solid red;
+}
+
+.correcta{
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+
+.correcta:hover{
+    background-color: lightgreen;
+    border: 2px solid green;
+    cursor: default;
+    transform: none;
+} 
+
+.letra .correcta:hover{
+    /* background-color: lightgreen;
+    border: 2px solid green; */
+    cursor: default;
+    transform: none;
+}
+
+.incorrecta:hover{
+    background-color: tomato;
+    border: 2px solid red;
+    transform: none;
+    cursor: default;
+}
+.letra .incorrecta:hover{
+    background-color: tomato;
+    border: 2px solid red;
+    transform: none;
+    cursor: default;
+}
+
+

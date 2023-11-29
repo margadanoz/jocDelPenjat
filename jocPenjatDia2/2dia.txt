@@ -1,0 +1,6 @@
+Día 2 de trabajo en el Juego del Ahorcado:
+
+- Canvio variable guion tipus, ara és array. Desenvolupada lògica
+	central del programa, que distingeix quan una lletra es correcta i quan es incorrecta
+	i en funció d'això li dona unas propietats o unes altres, color etc, (posat al css).
+- Part de l'html, el css i el Javascript afegit que actualitza errors, intents a parte d'html.
