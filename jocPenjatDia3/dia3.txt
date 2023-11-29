@@ -1,0 +1,9 @@
+Dia 3:
+
+- Incorporacion de las funciones que controlan la cuenta atrás (el tiempo, el minuto desde que se hace el primer click
+	hasta que se pierde(por fallos o agotamiento den tiempo) o se gana.
+funciones: cuentaAtrasPalabra(), activaCuentaAtras(), paraCuentaAtrasPalabra(), comprobarGanarPerder()
+- Agregados mensajes y elementos como un boton de volver a jugar cuandos e gana o se pierde la partida.
+- Acabada toda la lógica principal del juego.
+- Falta finalizar la función que reinicia todo el panel de letras, le devuelve su clase
+	original a las letras.
