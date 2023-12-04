@@ -1,0 +1,8 @@
+Dia 4:
+
+- Afegida lògica per controlar si torna a pitjar per error el jugador en una lletra ja marcada com correcta,
+	sino la sumaba com bona i després donaba problemes. Controlat ja repetides bones i repetides fallades.
+- Fet sençer el cronòmetre que controla la conta enrrere de les lletres. Funciona sençer, no es reactiva si es torna a pitjar la mateixa
+	es reinicia i suma error si es deixa arribar a cero.
+- Falta pararlo quan ja s'ha acabat el joc a la part de comprovar si s'ha guanyat o no o com no podrà arribar dos vegades a 0 (a més hi ha
+un petit retràs quan es reactiva d'un segón) es podria provar de parar a la mateixa lògica del crono de les lletres.
