@@ -1,0 +1,5 @@
+Dia 5:
+
+- Afegida tota la lògica de LocalStorage, funciona bé.
+- Retocada tota la part visual, retocat html i css. Retocat script a nivell tb visual de com es mostren certs elements.
+- Correcció d'errors amb els contadors. 
